@@ -6,8 +6,8 @@ public class tagging_client : MonoBehaviour {
 
 	public float timer;
 	public bool isTag = false;
-	public GameObject plr;
-	public tagging_control controller;
+	GameObject plr;
+	tagging_control controller;
 	
 	// Use this for initialization
 	void Start () {
