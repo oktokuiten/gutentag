@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class tagging : MonoBehaviour {
-
+/*
 	//public GameObject otherGameObject;
 	public bool istag = false;
-	tagging tagginge;
+	//tagging tagginge;
 	public int number = 0;
 	public bool istagstore;
 	public float timer2 = 3f;
@@ -23,6 +23,7 @@ public class tagging : MonoBehaviour {
 	void Update () {
 		if (timer > 0) {
 			timer -= Time.deltaTime;
+			//ticks timer if timer has value
 			//print (timer);
 		}
 
@@ -30,7 +31,9 @@ public class tagging : MonoBehaviour {
 		void OnTriggerStay2D (Collider2D other)
 	{
 		GameObject gObj = other.gameObject;
+		// get collided obj
 		tagginge = other.GetComponent<tagging> ();
+		// get other tag script
 		bool istagged = tagginge.istagstore;
 		istagstore = istag;
 		othertimer = tagginge.timer;
@@ -54,4 +57,5 @@ public class tagging : MonoBehaviour {
 		}
 
 		}
+*/
 }
