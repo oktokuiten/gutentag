@@ -28,6 +28,7 @@ public class tagging_client : MonoBehaviour {
 	{
 		if (isTag == true) {
 			GameObject tar = other.gameObject;
+			if (tar.tag == "Tagging")
 			controller.Tag(gameObject,tar);
 		}
 	}
