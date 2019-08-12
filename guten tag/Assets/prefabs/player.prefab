@@ -16,8 +16,9 @@ GameObject:
   - component: {fileID: 3761971319063148456}
   - component: {fileID: 1669693347650975844}
   - component: {fileID: 5263132227283420264}
+  - component: {fileID: 1538233866}
   m_Layer: 0
-  m_Name: player 1
+  m_Name: player
   m_TagString: Tagging
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -171,6 +172,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 0
+  stimer: 1
+  score: 0
   InitTag: 0
 --- !u!114 &5263132227283420264
 MonoBehaviour:
@@ -186,3 +189,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timer: 0
   isTag: 0
+--- !u!58 &1538233866
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3761971319063148448}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 2.5
